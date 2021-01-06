@@ -1,0 +1,4 @@
+qycf/samples/java/HttpRequestBean.java
+ qycf.samples.java.HttpRequestBean
+qycf/samples/java/HttpSample.java
+ qycf.samples.java.HttpSample
