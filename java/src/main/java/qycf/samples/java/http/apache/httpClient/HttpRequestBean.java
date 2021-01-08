@@ -1,4 +1,4 @@
-package qycf.samples.java;
+package qycf.samples.java.http.apache.httpClient;
 
 
 public class HttpRequestBean {

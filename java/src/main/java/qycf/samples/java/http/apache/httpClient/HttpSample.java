@@ -1,4 +1,4 @@
-package qycf.samples.java;
+package qycf.samples.java.http.apache.httpClient;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.gson.Gson;
@@ -17,9 +17,6 @@ import org.apache.http.util.EntityUtils;
 import java.io.IOException;
 
 public class HttpSample {
-
-
-
 
     public static void main(String[] args) {
 
@@ -66,7 +63,7 @@ public class HttpSample {
         try {
             Header[] headers = httpPost.getAllHeaders();
             HttpResponse httpResponse = httpclient.execute(httpPost);
-            System.out.printf(EntityUtils.toString(httpResponse.getEntity()));
+            System.out.println(EntityUtils.toString(httpResponse.getEntity()));
         } catch (IOException e) {
             e.printStackTrace();
         }
