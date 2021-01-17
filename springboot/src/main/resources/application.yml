@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: qycf-springboot
+  data:
+    mongodb:
+      host: ubuntu.host
+  redis:
+    host: ubuntu.host
